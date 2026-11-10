@@ -1,0 +1,187 @@
+{
+  "assembled_on": "2026-11-10",
+  "status": "partial_recovery_original_benchmark_not_located",
+  "paper": {
+    "title": "Beyond the Answer Key: Robustness Evaluation of Large Language Models for Step-Level Mathematical Verification",
+    "authors": [
+      "Fateme Mazdarani",
+      "Carlos Toxtli"
+    ],
+    "doi": "10.1109/ICMLA69890.2026.00158",
+    "published_pdf_filename": "Beyond_the_Answer_Key_Robustness_Evaluation_of_Large_Language_Models_for_Step-Level_Mathematical_Verification.pdf",
+    "published_pdf_sha256": "52ce8bee7e04705303c855175b7e5e66105dc589cb7dc0cc15a224c85df0f8b2",
+    "table_pages": {
+      "I": 1046,
+      "II": 1047,
+      "III": 1047
+    }
+  },
+  "recovered_archives": [
+    {
+      "filename": "beyond_answer_key_camera_ready (1).zip",
+      "sha256": "360377906067a4f50f4e4288e7492ee41b2cdecaab2395ba22ba0aefc4b6ec96",
+      "members": [
+        {
+          "filename": "references.bib",
+          "bytes": 6558,
+          "sha256": "f89dd3f63ef6d41f86f383ddbf1227099d83df1ae37e4e2db5dc749cfa1e1a6d"
+        },
+        {
+          "filename": "types.png",
+          "bytes": 1030845,
+          "sha256": "d0decda936c4d5c35b95604dacd771c0f47fbfb5e0dea0a078219a284bee794c"
+        },
+        {
+          "filename": "detours.png",
+          "bytes": 2878116,
+          "sha256": "ff170c348fc7870dfa60cb8321d39f83f5147e34d5102ca44d80799d5dcf4037"
+        },
+        {
+          "filename": "combined_robustness_metrics.png",
+          "bytes": 53679,
+          "sha256": "6e086336c6c0802ae77915e0622a3a7b3375eb524bfa6a64377f28618ee325b6"
+        },
+        {
+          "filename": "ICMLA2026_step_verification_revised.tex",
+          "bytes": 35777,
+          "sha256": "7204d6a088cc6f791ad0d9c23f33dd19bb512da22e9a7528638e3b16178fbb8b"
+        }
+      ]
+    },
+    {
+      "filename": "beyond_answer_key_camera_ready.zip",
+      "sha256": "5c74a728f3b45b67dd59d28d91d68e57283348dba513bbd8542b6edb02a00b31",
+      "members": [
+        {
+          "filename": "references.bib",
+          "bytes": 6558,
+          "sha256": "f89dd3f63ef6d41f86f383ddbf1227099d83df1ae37e4e2db5dc749cfa1e1a6d"
+        },
+        {
+          "filename": "types.png",
+          "bytes": 1030845,
+          "sha256": "d0decda936c4d5c35b95604dacd771c0f47fbfb5e0dea0a078219a284bee794c"
+        },
+        {
+          "filename": "detours.png",
+          "bytes": 2878116,
+          "sha256": "ff170c348fc7870dfa60cb8321d39f83f5147e34d5102ca44d80799d5dcf4037"
+        },
+        {
+          "filename": "combined_robustness_metrics.png",
+          "bytes": 53679,
+          "sha256": "6e086336c6c0802ae77915e0622a3a7b3375eb524bfa6a64377f28618ee325b6"
+        },
+        {
+          "filename": "ICMLA2026_step_verification_revised.tex",
+          "bytes": 35777,
+          "sha256": "7204d6a088cc6f791ad0d9c23f33dd19bb512da22e9a7528638e3b16178fbb8b"
+        }
+      ]
+    },
+    {
+      "filename": "beyond_answer_key_camera_ready__Arxiv_ (1).zip",
+      "sha256": "d01c11640548dfef750a821bd39db7c9b041c68a6dd96e0e6b44fff0dcfdd087",
+      "members": [
+        {
+          "filename": "references.bib",
+          "bytes": 6558,
+          "sha256": "f89dd3f63ef6d41f86f383ddbf1227099d83df1ae37e4e2db5dc749cfa1e1a6d"
+        },
+        {
+          "filename": "combined_robustness_metrics.png",
+          "bytes": 53679,
+          "sha256": "6e086336c6c0802ae77915e0622a3a7b3375eb524bfa6a64377f28618ee325b6"
+        },
+        {
+          "filename": "detours.png",
+          "bytes": 2878116,
+          "sha256": "ff170c348fc7870dfa60cb8321d39f83f5147e34d5102ca44d80799d5dcf4037"
+        },
+        {
+          "filename": "types.png",
+          "bytes": 1030845,
+          "sha256": "d0decda936c4d5c35b95604dacd771c0f47fbfb5e0dea0a078219a284bee794c"
+        },
+        {
+          "filename": "ICMLA2026_step_verification_revised.tex",
+          "bytes": 35777,
+          "sha256": "7204d6a088cc6f791ad0d9c23f33dd19bb512da22e9a7528638e3b16178fbb8b"
+        }
+      ]
+    },
+    {
+      "filename": "beyond_answer_key_camera_ready__Arxiv_ (2).zip",
+      "sha256": "52a909876254c6e61c113337616a777a4f6db999cb8cfda37a20b028b855d227",
+      "members": [
+        {
+          "filename": "references.bib",
+          "bytes": 6558,
+          "sha256": "f89dd3f63ef6d41f86f383ddbf1227099d83df1ae37e4e2db5dc749cfa1e1a6d"
+        },
+        {
+          "filename": "main.tex",
+          "bytes": 35777,
+          "sha256": "7204d6a088cc6f791ad0d9c23f33dd19bb512da22e9a7528638e3b16178fbb8b"
+        },
+        {
+          "filename": "combined_robustness_metrics.png",
+          "bytes": 53679,
+          "sha256": "6e086336c6c0802ae77915e0622a3a7b3375eb524bfa6a64377f28618ee325b6"
+        },
+        {
+          "filename": "detours.png",
+          "bytes": 2878116,
+          "sha256": "ff170c348fc7870dfa60cb8321d39f83f5147e34d5102ca44d80799d5dcf4037"
+        },
+        {
+          "filename": "types.png",
+          "bytes": 1030845,
+          "sha256": "d0decda936c4d5c35b95604dacd771c0f47fbfb5e0dea0a078219a284bee794c"
+        }
+      ]
+    },
+    {
+      "filename": "beyond_answer_key_camera_ready__Arxiv_.zip",
+      "sha256": "eb064800059e11f89b634a2379c3105ca2264e6f5a4daaae26418c3fe7d2320c",
+      "members": [
+        {
+          "filename": "references.bib",
+          "bytes": 6558,
+          "sha256": "f89dd3f63ef6d41f86f383ddbf1227099d83df1ae37e4e2db5dc749cfa1e1a6d"
+        },
+        {
+          "filename": "combined_robustness_metrics.png",
+          "bytes": 53679,
+          "sha256": "6e086336c6c0802ae77915e0622a3a7b3375eb524bfa6a64377f28618ee325b6"
+        },
+        {
+          "filename": "detours.png",
+          "bytes": 2878116,
+          "sha256": "ff170c348fc7870dfa60cb8321d39f83f5147e34d5102ca44d80799d5dcf4037"
+        },
+        {
+          "filename": "types.png",
+          "bytes": 1030845,
+          "sha256": "d0decda936c4d5c35b95604dacd771c0f47fbfb5e0dea0a078219a284bee794c"
+        },
+        {
+          "filename": "ICMLA2026_step_verification_revised.tex",
+          "bytes": 35777,
+          "sha256": "7204d6a088cc6f791ad0d9c23f33dd19bb512da22e9a7528638e3b16178fbb8b"
+        }
+      ]
+    }
+  ],
+  "release_transformations": [
+    "Extracted three results table environments from the author source archive without changing their values.",
+    "Extracted three PNG figures from the same archive without modifying their bytes.",
+    "Converted results into CSV and JSON; verified all 432 accuracy values against the published PDF.",
+    "Transcribed paper-reported method settings into a descriptive JSON file; missing runtime details remain null."
+  ],
+  "limitations": [
+    "Original trace-level benchmark records, checker/generator, model outputs and executable experiment configurations were not located.",
+    "The available author manuscript source differs from the published PDF in prose and its availability statement. Only table fragments are included as extraction evidence.",
+    "Published rounded percentages cannot recover original model responses or original per-item labels."
+  ]
+}

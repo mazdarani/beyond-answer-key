@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-11-10",
+  "release_status": "partial_recovery",
+  "original_benchmark_available": false,
+  "available": [
+    {
+      "component": "reported_accuracy_values",
+      "count": 432,
+      "unit": "aggregate percentages",
+      "path": "data/reported_results/"
+    },
+    {
+      "component": "result_rows",
+      "count": 36,
+      "unit": "model/variant/split combinations",
+      "path": "data/reported_results/"
+    },
+    {
+      "component": "original_figures",
+      "count": 3,
+      "path": "figures/"
+    },
+    {
+      "component": "paper_reported_settings",
+      "path": "configs/paper_reported_settings.json"
+    }
+  ],
+  "missing": [
+    {
+      "component": "canonical_training_traces",
+      "paper_reported_count": 9000,
+      "status": "not_located"
+    },
+    {
+      "component": "perturbed_training_traces",
+      "paper_reported_count": 18000,
+      "status": "not_located"
+    },
+    {
+      "component": "canonical_test_traces",
+      "paper_reported_count": 1080,
+      "status": "not_located"
+    },
+    {
+      "component": "perturbed_test_traces",
+      "paper_reported_count": 1080,
+      "status": "not_located"
+    },
+    {
+      "component": "retained_distillation_examples",
+      "paper_reported_count": 4000,
+      "status": "not_located"
+    },
+    {
+      "component": "gold_metadata",
+      "paper_reported_count": null,
+      "status": "not_located"
+    },
+    {
+      "component": "original_generator_checker",
+      "paper_reported_count": null,
+      "status": "not_located"
+    },
+    {
+      "component": "original_prompts_and_executable_configs",
+      "paper_reported_count": null,
+      "status": "not_located"
+    },
+    {
+      "component": "raw_model_responses",
+      "paper_reported_count": null,
+      "status": "not_located"
+    },
+    {
+      "component": "split_membership_and_seeds",
+      "paper_reported_count": null,
+      "status": "not_located"
+    },
+    {
+      "component": "model_adapters_and_revisions",
+      "paper_reported_count": null,
+      "status": "not_located"
+    }
+  ],
+  "reuse_license": "not_selected"
+}

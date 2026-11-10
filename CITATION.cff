@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the published paper when referring to these reported results."
+title: "Beyond the Answer Key: Robustness Evaluation of Large Language Models for Step-Level Mathematical Verification"
+type: article
+authors:
+  - family-names: Mazdarani
+    given-names: Fateme
+  - family-names: Toxtli
+    given-names: Carlos
+year: 2026
+doi: 10.1109/ICMLA69890.2026.00158
+url: "https://doi.org/10.1109/ICMLA69890.2026.00158"
+collection-title: "2026 25th International Conference on Machine Learning and Applications (ICMLA)"
+start: 1043
+end: 1048

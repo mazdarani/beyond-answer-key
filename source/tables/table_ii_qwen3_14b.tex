@@ -1,0 +1,76 @@
+\begin{table*}[t]
+\caption{Test accuracy (\%) for Qwen3-14b-based models}
+\label{tab:table2_Qwen}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.2}
+
+\begin{tabular}{lcccc cccc cccc}
+\toprule
+\textbf{Model} &
+\multicolumn{4}{c}{\textbf{Outcome Accuracy ($Q_1$)}} &
+\multicolumn{4}{c}{\textbf{Step-Level Accuracy ($Q_2$)}} &
+\multicolumn{4}{c}{\textbf{Localization Accuracy ($Q_3$)}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}
+& \textbf{Overall} & \textbf{T1: Correct} & \textbf{T2: Incorrect} & \textbf{T3: Tricky}
+& \textbf{Overall} & \textbf{T1: Correct} & \textbf{T2: Incorrect} & \textbf{T3: Tricky}
+& \textbf{Overall} & \textbf{T1: Correct} & \textbf{T2: Incorrect} & \textbf{T3: Tricky} \\
+\midrule
+
+\multicolumn{13}{l}{\textbf{Baseline}} \\
+Base
+& \hm{83.61} & \hm{96.94} & \hm{82.50} & \hm{71.39}
+& \hm{86.48} & \hm{93.89} & \hm{82.50} & \hm{83.06}
+& \hm{86.02} & \hm{93.89} & \hm{82.22} & \hm{81.94} \\
+Base + TTC
+& \hm{86.85} & \hm{100} & \hm{99.17} & \hm{61.39}
+& \hm{99.63} & \hm{100} & \hm{98.89} & \hm{100}
+& \hm{92.41} & \hm{100} & \hm{90.83} & \hm{86.39} \\
+FT
+& \hm{75.65} & \hm{55.56} & \hm{75.56} & \hm{95.83}
+& \hm{78.33} & \hm{49.17} & \hm{89.17} & \hm{96.67}
+& \hm{77.87} & \hm{49.17} & \hm{87.78} & \hm{96.67} \\
+FT + TTC
+& \hm{87.31} & \hm{80.83} & \hm{84.44} & \hm{96.67}
+& \hm{93.70} & \hm{83.33} & \hm{98.61} & \hm{99.17}
+& \hm{93.61} & \hm{85.00} & \hm{97.78} & \hm{97.78} \\
+GED-FT
+& \hm{71.94} & \hm{86.67} & \hm{43.61} & \hm{85.56}
+& \hm{56.30} & \hm{86.67} & \hm{48.61} & \hm{33.61}
+& \hm{52.50} & \hm{86.67} & \hm{40.28} & \hm{30.56} \\
+GED-FT + TTC
+& \hm{73.33} & \hm{100} & \hm{23.61} & \hm{96.39}
+& \hm{53.70} & \hm{100} & \hm{47.78} & \hm{13.33}
+& \hm{51.28} & \hm{100} & \hm{26.67} & \hm{27.17} \\
+\midrule
+
+\multicolumn{13}{l}{\textbf{Perturbed}} \\
+Base 
+& \hm{71.67} & \hm{90.28} & \hm{61.67} & \hm{63.06}
+& \hm{52.69} & \hm{16.11} & \hm{68.06} & \hm{73.89}
+& \hm{14.35} & \hm{16.11} & \hm{17.78} & \hm{9.17} \\
+Base + TTC
+& \hm{34.35} & \hm{28.06} & \hm{71.94} & \hm{3.06}
+& \hm{53.61} & \hm{18.33} & \hm{72.50} & \hm{70.00}
+& \hm{30.09} & \hm{80.00} & \hm{9.17} & \hm{0.00} \\
+FT
+& \hm{76.48} & \hm{70.83} & \hm{68.89} & \hm{89.72}
+& \hm{77.87} & \hm{57.50} & \hm{88.06} & \hm{88.06}
+& \hm{44.91} & \hm{57.50} & \hm{45.83} & \hm{31.39}
+\\
+FT + TTC
+& \hm{78.24} & \hm{83.33} & \hm{81.39} & \hm{70.00}
+& \hm{84.54} & \hm{73.33} & \hm{91.11} & \hm{89.17}
+& \hm{81.67} & \hm{81.67} & \hm{83.33} & \hm{80.00} \\
+GED-FT
+& \hm{59.35} & \hm{87.78} & \hm{18.06} & \hm{72.22}
+& \hm{41.85} & \hm{85.56} & \hm{29.44} & \hm{10.56}
+& \hm{36.57} & \hm{85.56} & \hm{17.78} & \hm{6.39}  \\
+GED-FT + TTC
+& \hm{74.91} & \hm{98.61} & \hm{32.78} & \hm{93.33}
+& \hm{56.57} & \hm{90.28} & \hm{57.78} & \hm{21.67}
+& \hm{44.91} & \hm{88.89} & \hm{33.61} & \hm{12.22} \\
+\bottomrule
+\end{tabular}
+\end{table*}

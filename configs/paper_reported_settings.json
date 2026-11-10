@@ -1,0 +1,146 @@
+{
+  "status": "descriptive_transcription_not_executable_configuration",
+  "source": "Published paper, Sections III-B through III-G",
+  "equations": {
+    "form": "a*x + b = c*x + d",
+    "coefficient_type": "integer",
+    "coefficient_range_inclusive": [
+      -10,
+      10
+    ],
+    "constraint": "a != c",
+    "solution": "(d-b)/(a-c)",
+    "sampling_seed": null,
+    "tuple_hash_algorithm": null,
+    "split_assignment_algorithm": null
+  },
+  "labels": {
+    "Q1": "Boolean: final answer satisfies original equation",
+    "Q2": "Boolean: full trace is valid under checker semantics",
+    "Q3": "Integer: 0-based first invalid step; -1 if no invalid step",
+    "step_zero": "original equation string",
+    "parse_errors": "Malformed responses count as incorrect for affected metrics"
+  },
+  "trace_types": {
+    "T1": {
+      "description": "valid trace, correct final answer",
+      "Q1": true,
+      "Q2": true,
+      "Q3": -1
+    },
+    "T2": {
+      "description": "injected error propagated to incorrect final answer",
+      "Q1": false,
+      "Q2": false
+    },
+    "T3": {
+      "description": "invalid intermediate step, final answer reverted to correct value",
+      "Q1": true,
+      "Q2": false
+    }
+  },
+  "perturbation_families": [
+    {
+      "description": "add terms to both sides",
+      "semantics": "equivalence_preserving"
+    },
+    {
+      "description": "move terms to right-hand side",
+      "semantics": "equivalence_preserving"
+    },
+    {
+      "description": "multiply by nonzero constant",
+      "semantics": "equivalence_preserving"
+    },
+    {
+      "description": "divide by nonzero constant",
+      "semantics": "equivalence_preserving"
+    },
+    {
+      "description": "multiply by expression involving x",
+      "semantics": "candidate_generating_requires_verification"
+    },
+    {
+      "description": "square both sides",
+      "semantics": "candidate_generating_requires_verification"
+    }
+  ],
+  "paper_reported_counts": {
+    "train_canonical": 9000,
+    "train_perturbed": 18000,
+    "test_canonical": 1080,
+    "test_perturbed": 1080,
+    "test_per_trace_type_per_split": 360,
+    "retained_distillation_examples": 4000,
+    "distillation_overlap_with_training": null
+  },
+  "models": [
+    {
+      "paper_name": "GPT-OSS 20B",
+      "exact_hub_id": null,
+      "revision": null
+    },
+    {
+      "paper_name": "Qwen3-14B",
+      "exact_hub_id": null,
+      "revision": null
+    },
+    {
+      "paper_name": "Phi-4-Reasoning",
+      "exact_hub_id": null,
+      "revision": null
+    }
+  ],
+  "implementation": {
+    "libraries_reported": [
+      "Hugging Face Transformers",
+      "PEFT"
+    ],
+    "precision": "bf16",
+    "gradient_checkpointing": true,
+    "package_versions": null,
+    "hardware": null
+  },
+  "fine_tuning": {
+    "method": "LoRA",
+    "learning_rate": 0.0002,
+    "rank_options": [
+      8,
+      16
+    ],
+    "alpha_options": [
+      16,
+      32
+    ],
+    "epochs": 3,
+    "batch_size_reported": 16,
+    "per_model_rank_alpha_assignment": null,
+    "batch_size_interpretation": null,
+    "gradient_accumulation_steps": null,
+    "lora_target_modules": null,
+    "dropout": null,
+    "max_sequence_length": null,
+    "optimizer": null,
+    "training_seed": null
+  },
+  "distillation": {
+    "teacher_paper_name": "Gemini 3 Flash",
+    "teacher_revision": null,
+    "teacher_prompt": null,
+    "filter": "retain explanations preserving ground-truth (Q1, Q2, Q3)",
+    "retained_examples_reported": 4000
+  },
+  "decoding": {
+    "non_ttc": "deterministic",
+    "ttc_samples": 7,
+    "ttc_temperature": 0.3,
+    "ttc_aggregation": "per-field majority vote",
+    "ttc_q3_tie_policy": null,
+    "ttc_malformed_sample_policy": null,
+    "max_new_tokens": null,
+    "top_p": null,
+    "seed": null,
+    "original_prompts": null
+  },
+  "unknown_value_policy": "null denotes an unspecified or unrecovered original detail; no runtime defaults are implied."
+}

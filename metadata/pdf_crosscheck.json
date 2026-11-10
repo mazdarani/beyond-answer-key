@@ -1,0 +1,9 @@
+{
+  "checked_on": "2026-11-10",
+  "published_pdf_sha256": "52ce8bee7e04705303c855175b7e5e66105dc589cb7dc0cc15a224c85df0f8b2",
+  "method": "Compared every exported accuracy value, in table/section/variant order, with pypdf-extracted rows on PDF pages 4 and 5 (printed pages 1046 and 1047). Decimal comparison preserves values independent of displayed trailing zeros. Export precision comes from the unmodified author LaTeX table fragments.",
+  "rows_compared": 36,
+  "accuracy_values_compared": 432,
+  "mismatches": 0,
+  "scope": "Transcription fidelity only; original records and experiment results were not re-scored."
+}

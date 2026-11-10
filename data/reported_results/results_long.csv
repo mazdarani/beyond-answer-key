@@ -1,0 +1,433 @@
+table,model,split,variant,query,trace_group,accuracy_pct,paper_reported_n,provenance
+I,GPT-OSS 20B,canonical,Base,Q1,overall,97.69,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q1,T1,98.33,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q1,T2,98.06,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q1,T3,96.67,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q2,overall,98.24,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q2,T1,98.33,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q2,T2,98.06,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q2,T3,98.33,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q3,overall,98.06,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q3,T1,98.33,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q3,T2,97.78,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base,Q3,T3,98.06,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q1,overall,85.83,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q1,T1,100,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q1,T2,99.17,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q1,T3,58.33,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q2,overall,99.35,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q2,T1,100,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q2,T2,98.89,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q2,T3,99.17,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q3,overall,80.09,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q3,T1,100,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q3,T2,77.50,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,Base + TTC,Q3,T3,61.94,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q1,overall,81.48,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q1,T1,96.39,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q1,T2,61.67,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q1,T3,86.39,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q2,overall,82.13,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q2,T1,75.00,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q2,T2,88.89,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q2,T3,82.50,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q3,overall,74.17,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q3,T1,74.72,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q3,T2,70.56,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT,Q3,T3,77.22,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q1,overall,68.98,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q1,T1,97.50,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q1,T2,36.67,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q1,T3,72.78,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q2,overall,69.72,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q2,T1,93.89,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q2,T2,51.11,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q2,T3,64.17,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q3,overall,66.39,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q3,T1,96.11,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q3,T2,41.11,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,FT + TTC,Q3,T3,61.94,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q1,overall,77.31,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q1,T1,97.78,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q1,T2,85.83,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q1,T3,48.33,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q2,overall,89.63,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q2,T1,98.06,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q2,T2,86.11,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q2,T3,84.72,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q3,overall,85.74,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q3,T1,96.94,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q3,T2,80.28,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT,Q3,T3,80.00,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q1,overall,84.63,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q1,T1,100,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q1,T2,61.94,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q1,T3,92.22,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q2,overall,76.85,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q2,T1,100,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q2,T2,72.78,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q2,T3,57.78,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q3,overall,74.72,1080,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q3,T1,100,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q3,T2,70.56,360,published_aggregate_table
+I,GPT-OSS 20B,canonical,GED-FT + TTC,Q3,T3,52.78,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q1,overall,76.30,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q1,T1,72.50,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q1,T2,88.61,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q1,T3,67.78,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q2,overall,54.06,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q2,T1,24.44,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q2,T2,71.72,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q2,T3,72.00,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q3,overall,24.07,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q3,T1,24.72,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q3,T2,23.06,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base,Q3,T3,24.44,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q1,overall,32.04,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q1,T1,38.06,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q1,T2,44.72,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q1,T3,13.33,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q2,overall,31.11,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q2,T1,18.61,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q2,T2,45.83,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q2,T3,28.89,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q3,overall,35.07,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q3,T1,95.83,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q3,T2,6.94,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,Base + TTC,Q3,T3,3.00,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q1,overall,73.33,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q1,T1,95.00,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q1,T2,31.39,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q1,T3,93.61,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q2,overall,69.35,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q2,T1,23.06,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q2,T2,92.78,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q2,T3,92.22,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q3,overall,42.87,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q3,T1,23.33,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q3,T2,47.22,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT,Q3,T3,58.06,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q1,overall,63.89,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q1,T1,83.61,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q1,T2,35.00,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q1,T3,73.06,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q2,overall,47.59,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q2,T1,74.72,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q2,T2,40.28,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q2,T3,27.78,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q3,overall,43.89,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q3,T1,86.94,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q3,T2,27.50,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,FT + TTC,Q3,T3,16.94,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q1,overall,84.35,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q1,T1,95.83,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q1,T2,73.61,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q1,T3,83.61,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q2,overall,76.94,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q2,T1,94.72,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q2,T2,79.44,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q2,T3,56.67,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q3,overall,58.98,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q3,T1,93.61,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q3,T2,45.00,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT,Q3,T3,38.33,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q1,overall,83.70,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q1,T1,99.44,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q1,T2,56.11,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q1,T3,96.56,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q2,overall,66.20,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q2,T1,98.33,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q2,T2,68.33,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q2,T3,31.06,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q3,overall,56.50,1080,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q3,T1,100,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q3,T2,42.50,360,published_aggregate_table
+I,GPT-OSS 20B,perturbed,GED-FT + TTC,Q3,T3,25.06,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q1,overall,83.61,1080,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q1,T1,96.94,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q1,T2,82.50,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q1,T3,71.39,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q2,overall,86.48,1080,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q2,T1,93.89,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q2,T2,82.50,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q2,T3,83.06,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q3,overall,86.02,1080,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q3,T1,93.89,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q3,T2,82.22,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base,Q3,T3,81.94,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q1,overall,86.85,1080,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q1,T1,100,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q1,T2,99.17,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q1,T3,61.39,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q2,overall,99.63,1080,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q2,T1,100,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q2,T2,98.89,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q2,T3,100,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q3,overall,92.41,1080,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q3,T1,100,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q3,T2,90.83,360,published_aggregate_table
+II,Qwen3-14B,canonical,Base + TTC,Q3,T3,86.39,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q1,overall,75.65,1080,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q1,T1,55.56,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q1,T2,75.56,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q1,T3,95.83,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q2,overall,78.33,1080,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q2,T1,49.17,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q2,T2,89.17,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q2,T3,96.67,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q3,overall,77.87,1080,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q3,T1,49.17,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q3,T2,87.78,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT,Q3,T3,96.67,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q1,overall,87.31,1080,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q1,T1,80.83,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q1,T2,84.44,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q1,T3,96.67,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q2,overall,93.70,1080,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q2,T1,83.33,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q2,T2,98.61,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q2,T3,99.17,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q3,overall,93.61,1080,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q3,T1,85.00,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q3,T2,97.78,360,published_aggregate_table
+II,Qwen3-14B,canonical,FT + TTC,Q3,T3,97.78,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q1,overall,71.94,1080,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q1,T1,86.67,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q1,T2,43.61,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q1,T3,85.56,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q2,overall,56.30,1080,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q2,T1,86.67,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q2,T2,48.61,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q2,T3,33.61,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q3,overall,52.50,1080,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q3,T1,86.67,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q3,T2,40.28,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT,Q3,T3,30.56,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q1,overall,73.33,1080,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q1,T1,100,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q1,T2,23.61,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q1,T3,96.39,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q2,overall,53.70,1080,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q2,T1,100,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q2,T2,47.78,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q2,T3,13.33,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q3,overall,51.28,1080,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q3,T1,100,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q3,T2,26.67,360,published_aggregate_table
+II,Qwen3-14B,canonical,GED-FT + TTC,Q3,T3,27.17,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q1,overall,71.67,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q1,T1,90.28,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q1,T2,61.67,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q1,T3,63.06,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q2,overall,52.69,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q2,T1,16.11,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q2,T2,68.06,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q2,T3,73.89,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q3,overall,14.35,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q3,T1,16.11,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q3,T2,17.78,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base,Q3,T3,9.17,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q1,overall,34.35,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q1,T1,28.06,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q1,T2,71.94,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q1,T3,3.06,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q2,overall,53.61,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q2,T1,18.33,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q2,T2,72.50,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q2,T3,70.00,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q3,overall,30.09,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q3,T1,80.00,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q3,T2,9.17,360,published_aggregate_table
+II,Qwen3-14B,perturbed,Base + TTC,Q3,T3,0.00,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q1,overall,76.48,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q1,T1,70.83,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q1,T2,68.89,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q1,T3,89.72,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q2,overall,77.87,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q2,T1,57.50,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q2,T2,88.06,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q2,T3,88.06,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q3,overall,44.91,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q3,T1,57.50,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q3,T2,45.83,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT,Q3,T3,31.39,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q1,overall,78.24,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q1,T1,83.33,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q1,T2,81.39,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q1,T3,70.00,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q2,overall,84.54,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q2,T1,73.33,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q2,T2,91.11,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q2,T3,89.17,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q3,overall,81.67,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q3,T1,81.67,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q3,T2,83.33,360,published_aggregate_table
+II,Qwen3-14B,perturbed,FT + TTC,Q3,T3,80.00,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q1,overall,59.35,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q1,T1,87.78,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q1,T2,18.06,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q1,T3,72.22,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q2,overall,41.85,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q2,T1,85.56,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q2,T2,29.44,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q2,T3,10.56,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q3,overall,36.57,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q3,T1,85.56,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q3,T2,17.78,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT,Q3,T3,6.39,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q1,overall,74.91,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q1,T1,98.61,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q1,T2,32.78,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q1,T3,93.33,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q2,overall,56.57,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q2,T1,90.28,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q2,T2,57.78,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q2,T3,21.67,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q3,overall,44.91,1080,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q3,T1,88.89,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q3,T2,33.61,360,published_aggregate_table
+II,Qwen3-14B,perturbed,GED-FT + TTC,Q3,T3,12.22,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q1,overall,96.48,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q1,T1,92.22,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q1,T2,97.78,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q1,T3,99.44,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q2,overall,96.11,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q2,T1,92.22,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q2,T2,97.78,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q2,T3,98.33,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q3,overall,95.93,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q3,T1,92.22,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q3,T2,97.22,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base,Q3,T3,98.33,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q1,overall,65.56,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q1,T1,98.61,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q1,T2,91.11,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q1,T3,6.94,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q2,overall,90.74,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q2,T1,99.74,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q2,T2,91.11,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q2,T3,82.67,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q3,overall,42.78,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q3,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q3,T2,15.83,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,Base + TTC,Q3,T3,12.50,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q1,overall,68.15,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q1,T1,100.00,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q1,T2,4.72,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q1,T3,99.72,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q2,overall,72.96,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q2,T1,99.72,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q2,T2,48.89,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q2,T3,70.28,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q3,overall,38.98,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q3,T1,99.72,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q3,T2,8.06,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT,Q3,T3,9.17,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q1,overall,66.67,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q1,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q1,T2,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q1,T3,100,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q2,overall,33.33,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q2,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q2,T2,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q2,T3,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q3,overall,33.33,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q3,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q3,T2,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,FT + TTC,Q3,T3,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q1,overall,89.07,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q1,T1,98.89,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q1,T2,97.22,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q1,T3,71.11,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q2,overall,98.33,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q2,T1,98.61,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q2,T2,97.50,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q2,T3,98.89,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q3,overall,97.87,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q3,T1,98.61,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q3,T2,96.94,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT,Q3,T3,98.06,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q1,overall,93.61,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q1,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q1,T2,85.56,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q1,T3,94.28,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q2,overall,94.35,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q2,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q2,T2,92.78,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q2,T3,89.17,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q3,overall,87.13,1080,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q3,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q3,T2,75.28,360,published_aggregate_table
+III,Phi-4-Reasoning,canonical,GED-FT + TTC,Q3,T3,85.11,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q1,overall,67.87,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q1,T1,56.39,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q1,T2,90.28,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q1,T3,56.94,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q2,overall,63.43,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q2,T1,14.72,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q2,T2,91.39,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q2,T3,84.17,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q3,overall,19.81,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q3,T1,14.72,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q3,T2,23.06,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base,Q3,T3,21.67,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q1,overall,25.00,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q1,T1,14.72,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q1,T2,58.33,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q1,T3,1.94,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q2,overall,38.06,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q2,T1,11.94,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q2,T2,58.33,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q2,T3,43.89,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q3,overall,33.89,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q3,T1,98.89,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q3,T2,3.06,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,Base + TTC,Q3,T3,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q1,overall,67.13,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q1,T1,100.00,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q1,T2,2.22,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q1,T3,99.17,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q2,overall,61.02,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q2,T1,97.50,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q2,T2,34.72,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q2,T3,50.83,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q3,overall,33.70,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q3,T1,97.22,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q3,T2,2.22,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT,Q3,T3,1.67,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q1,overall,66.67,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q1,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q1,T2,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q1,T3,100,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q2,overall,33.33,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q2,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q2,T2,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q2,T3,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q3,overall,33.33,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q3,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q3,T2,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,FT + TTC,Q3,T3,0.00,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q1,overall,96.39,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q1,T1,99.44,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q1,T2,95.83,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q1,T3,93.89,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q2,overall,96.76,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q2,T1,93.61,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q2,T2,96.94,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q2,T3,99.72,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q3,overall,93.70,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q3,T1,93.61,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q3,T2,91.39,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT,Q3,T3,96.11,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q1,overall,91.31,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q1,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q1,T2,76.44,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q1,T3,97.50,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q2,overall,95.93,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q2,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q2,T2,91.39,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q2,T3,98.39,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q3,overall,85.11,1080,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q3,T1,100,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q3,T2,78.39,360,published_aggregate_table
+III,Phi-4-Reasoning,perturbed,GED-FT + TTC,Q3,T3,77.50,360,published_aggregate_table
